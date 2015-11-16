@@ -1,0 +1,127 @@
+body,html{
+	margin:0px;
+    padding:0px;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+	font-size: 15px;
+}
+/*-------Settings-------*/
+.default-color{
+	color: #53F0CD;
+}
+.white-color{
+	color: #fff;
+}
+.no-padding{
+	padding: 0px;
+}
+.no-margin{
+	margin: 0px;
+}
+.text-left{
+	text-align: left;
+}
+.grey-section{
+	background-color: #4A4A4A;
+}
+
+.button-mealplan {
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px #FFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 0px;
+    margin: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: all 0.6s ease 0s;
+}
+
+.button-mealplan:hover, .button-mealplan:focus, .button-mealplan:active {
+    background-color: #53F0CD;
+    color: #fff;
+    font-size: 18px;
+    border-color: #53F0CD;
+    font-weight: 400;
+    border-radius: 0px;
+}
+/*----------Header---------*/
+.navbar-nav > li > a {
+    color: #ffffff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background: none;
+}
+#mealplan-header{
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	padding: 30px;
+	overflow: hidden;
+}
+.intro{
+	background-size: cover;
+}
+.home-bg{
+	position:absolute;
+    z-index:-1;
+	width:100%;
+	height:100%;
+	background: url('../images/home-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slide{
+	height:calc(100vh);/*vw is viewport height*/
+	position:relative;
+	z-index: 1;
+}
+.container-slide {
+	top: 32%;
+	z-index: 10;
+}
+
+.container-slide h1{
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 65px;
+}
+
+#slide-intro .tint {
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 2px solid;
+  border-color: #53F0CD;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+.menu-word{
+	position: absolute;
+    margin-top: 35px;
+    margin-left: -60px;
+    color: #53F0CD;
+}
